@@ -1,0 +1,29 @@
+@import url(https://fonts.google.com/share?selection.family=Roboto+Condensed:ital,wght@0,100..900;1,100..900);
+
+:root {
+    --cor-principal: #37426E;
+    --cor-secundaria: #4F3886;
+    --cor-destaque: #821818;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-secundaria);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
